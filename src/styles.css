@@ -78,6 +78,20 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 16px;
+    /* margin-top: -16px;
+    padding: 8px;
+
+    background-color: rgba(255, 255, 255, 0.2); */
+}
+
+span {
+    color: #fca428;
+}
+
 nav {
     margin: 8px;
     display: flex;
@@ -97,4 +111,43 @@ footer {
     margin-top: auto;
     color: #efc863;
     margin-bottom: 8px;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 64px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+img {
+    width: 650px;
+    height: auto;
+    border-radius: 18px;
+}
+
+#right {
+    flex-wrap: wrap;
+}
+
+#text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#order {
+    color: #fca428;
+}
+
+#order:hover {
+    text-decoration-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #fca428;
 }
