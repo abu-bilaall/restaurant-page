@@ -1,6 +1,21 @@
 import savoryHaven from "../assets/images/restaurant-page.jpg";
 
+function clearPage() {
+    // clear contents
+    const body = document.querySelector('body');
+    const content = document.querySelector('#content');
+
+    if (content.firstChild) {
+        body.setAttribute('id', '');
+        while (content.firstChild) {
+            content.removeChild(content.firstChild);
+        }
+    }
+}
+
 export function loadHomePage() {
+    clearPage();
+
     const left = document.createElement('div');
     left.setAttribute('id', 'left');
 
