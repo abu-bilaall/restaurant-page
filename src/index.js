@@ -1,7 +1,7 @@
 import("./styles.css");
 import { loadHomePage } from "./initial-page-load";
 import { loadContactPage } from "./contact-module";
-import { loadMenuPage } from "./menu-module";
+import { loadMenuPage } from "./menu-module.js";
 
 loadHomePage();
 
